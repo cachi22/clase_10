@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="estilos.css">
+    <title>Clse 9 DOM</title>
+</head>
+<body>
+    <header>
+        <img src="img/LA_TIENDA_DE_JOSE.png" height="150px" alt="logo__de__jose">
+    </header>
+    <main>
+        <section class="portada">
+            <h1>LA TIENDA DE JOSE</h1>
+            <p>Venta de productos de alamacen cerca de todos</p>
+        </section>
+        <section class="contenedorCarrito">
+            <h2>Carrito</h2>
+            <div class="cart">
+                <ul id="listaProductos"></ul>
+                <div>
+                    <button class="clear-cart-btn">Vaciar Carrito</button>
+                </div>
+            </div>
+            <div class="total">
+                <p>Total: <span class="total-price"> $0</span>Ars</p>
+            </div>
+        </section>
+        <section class="select">
+            <input type="text" id="buscador">
+        </section>
+
+        <section class="contenedorCards" id="contenedorProductos">
+
+        </section>
+    </main>
+    <footer>
+        <img src="img/LA_TIENDA_DE_JOSE.png" alt="" height="100px">
+        <div>
+            <a href="https://web.whatsapp.com/"><img><i class='bx bxl-whatsapp'></i></a>
+            <a href="https://www.facebook.com/"><img><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/"><img><i class='bx bxl-instagram-alt'></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
